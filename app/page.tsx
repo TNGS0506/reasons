@@ -106,7 +106,7 @@ export default function Home() {
                                             fill="currentColor"
                                         />
                                     </div>
-                                    <p className="text-xl md:text-2xl text-center text-gray-800 dark:text-gray-200 font-medium leading-relaxed">
+                                    <p className="text-xl md:text-2xl text-center text-gray-800 font-medium leading-relaxed">
                                         {reason}
                                     </p>
                                 </div>
