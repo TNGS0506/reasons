@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Pacifico } from "next/font/google";
+
+const pacifico = Pacifico({ weight: "400", subsets: ["latin"] });
 
 const reasons = [
     "Миний мэдрэмж, сэтгэл хөдлөлийг ойлгож, надад үргэлж санаа тавьдаг.",
@@ -66,8 +69,10 @@ export default function Home() {
                 <div className="absolute inset-0 bg-[url('bg.jpg')] bg-cover bg-center opacity-4.5" />
 
                 <div className="relative z-10">
-                    <h1 className="text-3xl md:text-6xl font-bold text-center mb-8 bg-gradient-to-r from-rose-500 to-pink-500 dark:from-rose-300 dark:to-pink-300 text-transparent bg-clip-text drop-shadow-lg">
-                        Оюу-Болорыг хайрлах шалтгаанууд
+                    <h1
+                        className={`text-4xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-rose-500 to-pink-500 dark:from-rose-300 dark:to-pink-300 text-transparent bg-clip-text drop-shadow-lg ${pacifico.className}`}
+                    >
+                        Reasons To Love Oyu
                     </h1>
 
                     <div className="relative w-full max-w-2xl min-h-[300px]">
