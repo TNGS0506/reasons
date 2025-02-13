@@ -68,7 +68,7 @@ export default function Home() {
 
                 <div className="relative z-10">
                     <h1 className="text-4xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-rose-500 to-pink-500 dark:from-rose-300 dark:to-pink-300 text-transparent bg-clip-text drop-shadow-lg">
-                        Reasons Why I Love You
+                        Оюу-Болорыг хайрлах шалтгаанууд
                     </h1>
 
                     <div className="relative w-full max-w-2xl min-h-[300px]">
