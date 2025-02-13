@@ -64,10 +64,10 @@ export default function Home() {
             ))}
 
             <div className="container mx-auto px-4 py-20 min-h-screen flex flex-col items-center justify-center relative">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518895949257-7621c3c786d7?q=80&w=2000')] bg-cover bg-center opacity-5" />
+                <div className="absolute inset-0 bg-[url('bg.jpg')] bg-cover bg-center opacity-4.5" />
 
                 <div className="relative z-10">
-                    <h1 className="text-4xl md:text-6xl font-bold text-center mb-16 bg-gradient-to-r from-rose-500 to-pink-500 dark:from-rose-300 dark:to-pink-300 text-transparent bg-clip-text drop-shadow-lg">
+                    <h1 className="text-3xl md:text-6xl font-bold text-center mb-8 bg-gradient-to-r from-rose-500 to-pink-500 dark:from-rose-300 dark:to-pink-300 text-transparent bg-clip-text drop-shadow-lg">
                         Оюу-Болорыг хайрлах шалтгаанууд
                     </h1>
 
@@ -78,7 +78,7 @@ export default function Home() {
                                 className={cn(
                                     "absolute top-0 left-0 w-full transition-all duration-1000 ease-in-out",
                                     {
-                                        "opacity-100 translate-y-0":
+                                        "opacity-90 translate-y-0":
                                             index === activeIndex,
                                         "opacity-0 translate-y-8":
                                             index !== activeIndex,
