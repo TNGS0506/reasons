@@ -99,7 +99,7 @@ export default function Home() {
                                             : "hidden",
                                 }}
                             >
-                                <div className="bg-white/80 dark:bg-gray-800/60 p-8 rounded-2xl shadow-xl backdrop-blur-md border border-rose-200/50 dark:border-rose-800/50 hover:border-rose-300 dark:hover:border-rose-700 transition-colors">
+                                <div className="bg-white/80 p-8 rounded-2xl shadow-xl backdrop-blur-md border border-rose-200/50 dark:border-rose-800/50 hover:border-rose-300 dark:hover:border-rose-700 transition-colors">
                                     <div className="flex items-center justify-center mb-4">
                                         <Heart
                                             className="w-8 h-8 text-rose-500 animate-pulse"
